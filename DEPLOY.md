@@ -26,7 +26,7 @@
 2. **小组件名称**：填写 `tgbot`（或其他名称）
 3. **主机名管理**：点击 **添加主机名** 按钮
    - 选择 **添加自定义主机名**
-   - 填写你的 Workers 域名或自己的域名，例如 `xixi.workers.dev` 改成自己的
+   - 填写你的 Workers 域名或自己的域名，例如 `qianqi.workers.dev` 改成自己的
    - 点击输入框旁边的 **添加** 按钮
    - 点击下方的 **添加** 按钮确认
 4. 点击 **创建** 按钮
@@ -90,7 +90,7 @@
 | 变量 | 类型 | 说明 | 示例 |
 |:----:|:----:|:-----|:----:|
 | `ENV_BOT_TOKEN` | 密钥 | Telegram Bot Token | `123456:ABC-DEF...` |
-| `ENV_BOT_SECRET` | 密钥 | 用于 `/registerWebhook` 的 `随机UUID`也可自己填写 | `d7ecca95-e45e-41f4-b018-d5cc05486283` |
+| `ENV_BOT_SECRET` | 密钥 | 用于 `/registerWebhook` 的开头网站获取的 `随机UUID`也可自己填写 | `d7ecca95-e45e-41f4-b018-d5cc05486283` |
 | `ENV_ADMIN_UID`` | 文本 | 你的TGID 至少填写一个管理员ID。 | `123456789` |
 
 ### 建议添加
@@ -121,7 +121,7 @@
 ```
 https://<你的 worker 域名>/registerWebhook
 ```
-例如： https://tgbot.xixi.workers.dev/registerWebhook
+例如： https://tgbot.qianqi.workers.dev/registerWebhook
 ---
 
 ## 可选：启用话题模式
